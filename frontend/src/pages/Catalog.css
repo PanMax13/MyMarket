@@ -1,0 +1,26 @@
+.catalog-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.catalog-container h2 {
+  text-align: center;
+  margin-bottom: 18px;
+}
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 18px;
+}
+.product-item:last-child {
+  border-bottom: none;
+} 
